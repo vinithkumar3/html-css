@@ -1,0 +1,140 @@
+.form1{
+    display:grid;
+    border:3px solid black;
+    background-color: azure;
+    padding: 20px;
+    width:701px;
+    justify-items: center;
+    transition:  transform 7s;
+
+}
+
+
+
+.first{
+    display:flex;
+    flex-direction: row;
+    
+}
+.company{
+     display :flex;
+     flex-direction: column;
+
+
+
+}
+.tbox{
+    width:70%;
+}
+body{
+    background-color: lightslategray;
+    
+}
+.secondrow{display:flex;
+    flex-direction: row;
+
+
+}
+.firstname{
+    display:flex;
+    flex-direction: column;
+    
+}
+.stbox{
+    width:70%;
+}
+.address{
+    width:45%;
+}
+.about
+{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+.atext{
+    width:70%;
+}
+#update{
+    background-color:#00c5e7;
+    padding: 5px;
+    margin: 5px;
+    width: 136%;
+    color: beige;
+    font-size: small;
+    border: 1px solid rgb(145, 144, 144);
+    border-radius: 15px;
+    margin-left: -25%;
+    transition: width 4s, transform 10s;
+
+}
+
+#update:hover {
+width:180%;
+  transform: rotate(360deg);
+}
+@keyframes animation{
+    from{background-image: url(flu.jpg);background-repeat:no-repeat;top:0px;left:0px;}
+    to{background-image: url(dj.jpg);background-repeat:no-repeat;width:500px;height:500px;top:0px;left:500px;}
+    
+}
+.animation{
+    width:300px;
+    height:300px;
+    position:relative;
+    background-image: black;
+    animation-name: animation;
+    animation-duration: 4s;
+    
+    border-radius: 50%;
+}
+@media screen and (max-width:600px)
+{
+    .first{
+        display:flex;
+        flex-direction: column;
+    }
+    .company{
+         display :flex;
+         flex-direction: column;
+    
+    
+    }
+    body{
+        background-color:lightcoral;
+    }
+    .tbox{
+        width:45%;
+    }
+    .secondrow{display:flex;
+        flex-direction: column;
+
+
+    }
+    .firstname{
+        display:flex;
+        flex-direction: column;
+        
+    }
+    .stbox{
+        width:45%;
+    }
+    .address{
+    width:45%;
+    }
+    @keyframes animation{
+        from{background-image: url(flu.jpg);background-repeat:no-repeat;top:0px;left:0px;}
+        to{background-image: url(dj.jpg);background-repeat:no-repeat;width:300px;height:300px;top:0px;left:500px;}
+        
+    }
+    .animation{
+        width:300px;
+        height:300px;
+        position:relative;
+        background-image: black;
+        animation-name: animation;
+        animation-duration: 4s;
+        
+        border-radius: 50%;
+    }
+}

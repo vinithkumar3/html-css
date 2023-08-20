@@ -1,0 +1,274 @@
+
+body{
+    background-color: grey;
+}
+    .form1{
+        margin-top:42px;
+        margin-left:745px;
+        margin-bottom: 40px;
+        padding: 7px ; 
+        background-color: whitesmoke;
+        
+        text-align: left;
+        width: 555px;
+        border: 1px solid rgb(145, 144, 144);
+    border-radius: 5px;
+    position:relative;
+    animation-name: form1;
+    animation-duration: 4s;
+
+}
+@keyframes form1{
+    0%{left: 0px;}
+    100%{left: -500px;}
+}
+    
+.first{
+    display:flex;
+    flex-direction: row;
+}
+.company{
+     display :flex;
+     flex-direction: column;
+
+
+}
+
+.us{
+    display :flex;
+    flex-direction: column;   
+
+}
+.em{
+    display :flex;
+    flex-direction: column;
+}
+.fn{
+    display:inline-block;
+    
+}
+.as{
+    display: inline-block;
+    width:97%;
+    border: 1px solid rgb(145, 144, 144);
+  border-radius: 5px;
+  padding: 5px;
+}
+.co{
+    display:inline-block;
+}
+.abt
+{
+    width: 100px;
+    padding: 2px;
+    margin: 10px;
+    
+}
+textarea{
+    width: 525px;
+    height: 80px;
+}
+#update {
+    background-color:#00c5e7;
+    padding: 5px;
+    margin: 5px;
+    width: 20%;
+    color: beige;
+    font-size: small;
+    border: 1px solid rgb(145, 144, 144);
+  border-radius: 15px;
+  margin-left: 225px;
+}
+.text{border: 1px solid rgb(145, 144, 144);
+  border-radius: 5px;
+  padding: 5px;
+}
+.fi{
+    width:261px;
+    border: 1px solid rgb(145, 144, 144);
+    border-radius: 5px;
+    padding: 5px;
+}
+.form2{
+    background-color: azure;
+    margin-top: -566px;
+    margin-left: 475px;
+    margin-bottom: -35px;
+    padding: 38px;
+    width: 173px;
+    text-align: center;
+    border: 1px solid rgb(145, 144, 144);
+    border-radius: 5px;
+    position:relative;
+    animation-name: form2;
+    animation-duration: 4s;
+    transition-timing-function: ease;
+}
+@keyframes form2{
+    0%{top: 0px;left:0}
+    100%{top: 350px;left:350px}
+}
+.bg{
+    position: relative;
+}
+.ph{
+    
+    size: 50px;
+    position: absolute;
+    bottom: -129px;
+    right: -39px;
+    width: 248px;
+    border: 1px solid rgb(145, 144, 144);
+    border-radius: 5px;}
+.pp{
+position: relative;
+}
+.rp{
+    position: absolute;
+    bottom: -173px;
+    right: 31px;
+    width: 95px;
+    border-radius: 50%;
+    border:4px solid white;
+}
+.des{
+    
+    margin-top: 178px;
+    width:209px;
+    margin-left: -16px;
+    margin-bottom:-41px;
+}
+.op{
+    opacity: 0.5;
+}
+.de{
+    display: inline-block;
+    padding: 16px;
+    margin-top: -24px;
+
+}
+
+.form3{
+    
+    background-color: azure;
+    margin-top: 56px;
+    margin-left: 475px;
+    margin-bottom: -35px;
+    padding: 106px;
+    width: 39px;
+    text-align: left;
+    border: 1px solid rgb(145, 144, 144);
+    border-radius: 5px;
+    position:relative;
+    animation-name: form3;
+    animation-duration: 4s;
+
+}
+@keyframes form3{
+    0%{top: 350px;left:-350px}
+    100%{top: -350px;left:350px}
+}
+
+.te{
+    margin-top: -107px;
+    margin-left: -91px;
+    padding:18%;
+}
+.dj{
+    text-align: center;
+    margin-top:1px ;
+    margin-bottom: 11px;
+    margin-left :-28px;;
+     position: relative;
+    }
+
+.djp{
+    position:absolute;
+    bottom: 2px;
+     left: 55px;
+     width: 45px;
+    margin-left: -175%;
+     margin-bottom: -6px;
+     border-radius: 50%;}
+  .msg{
+    position: absolute;
+    bottom: 2px;
+    left:24px;
+    width: 32px;
+    margin-left: 97px;
+     margin-bottom: 1px;
+     border-radius: 50%;
+
+  }   
+  .ti{
+    text-align: center;
+    margin-top:14px ;
+    margin-bottom: -24px;
+    margin-left: -25px;
+     position: relative;
+    }
+
+.tip{
+    position:absolute;
+    bottom: 3px;
+     left: 54px;
+     width: 45px;
+    margin-left:-188% ;
+     margin-bottom: -5px;
+     border-radius: 50%;}
+  .tmsg{
+    position: absolute;
+    bottom: -1px;
+    left:-327px;
+    width: 32px;
+    margin-left: 444px;
+     margin-bottom: 2px;
+     border-radius: 50%;
+
+  }   
+  .fl{
+    text-align: center;
+    margin-top:48px ;
+    margin-bottom: -83px;
+    margin-left: -51px;
+     position: relative;
+    }
+
+.flp{
+    position:absolute;
+    bottom: 4px;
+     left: -72px;
+     width: 45px;
+     margin-left: 34%;
+    margin-bottom: -5px;
+    border-radius: 50%;}
+  .fmsg{
+    position: absolute;
+    bottom: 6px;
+    left:55px;
+    width: 32px;
+    margin-left: 86px;
+    margin-bottom:-3px;
+    border-radius: 50%;
+
+  }   
+
+.hr{
+    width:229px;
+    margin-left: -96px;
+}
+.hr1{
+    width:229px;
+    margin-left: -96px;
+}
+.of{
+margin-left:-20px;
+opacity: 0.5;
+}
+.ava{margin-left:-8px;
+    color:rgb(117, 117, 235);
+
+}
+.busy{margin-left:-8px;
+    color: red;
+}
